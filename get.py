@@ -23,7 +23,7 @@ except ImportError:
     print('Download and install it from https://github.com/marinatdd/diplom/vkontakte3')
     exit(1)
 
-import graph.io as io
+#import graph.io as io
 import utils.print as gprint
 
 INIT_TIME_TO_SLEEP_MIN = 0.2
@@ -529,8 +529,8 @@ if __name__ == '__main__':
                             time_profiler=time_profiler)
 
         print(nx.info(G), '\n')
-
-        io.write_graph(G, args.write_to)
+        nx.draw(G,pos=nx.spring_layout(G))
+        #io.write_graph(G, args.write_to)
 
         if args.time_profiling:
             write_time_profiling_data(time_profiler, args.time_profiling)
