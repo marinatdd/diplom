@@ -24,7 +24,7 @@ except ImportError:
     exit(1)
 
 #import graph.io as io
-import utils.print as gprint
+#import utils.print as gprint
 
 INIT_TIME_TO_SLEEP_MIN = 0.2
 INIT_TIME_TO_SLEEP_MAX = 2
@@ -539,5 +539,5 @@ if __name__ == '__main__':
         print('ValueError happened! Quitting...')
     except IOError:
         print('IOError happened! Quitting...')
-    else:
-        gprint.print_elapsed_time(time.time() - start_time)
+   # else:
+    #    gprint.print_elapsed_time(time.time() - start_time)
