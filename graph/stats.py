@@ -28,4 +28,4 @@ def avg_num_followers(graph):
     if num_nodes == 0:
         return 0
     else:
-        return num_followers / 
+        return num_followers / num_nodes
