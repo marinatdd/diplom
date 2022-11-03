@@ -14,7 +14,7 @@ try:
     import networkx as nx
 except ImportError:
     print('This script requires NetworkX to be installed.')
-    exit(1)
+    exit()
 
 try:
     import vkontakte
