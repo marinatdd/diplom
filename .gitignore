@@ -1,5 +1,10 @@
+\#*
 *~
-__pycache__
-build/*
-dist/*
-vkontakte.egg-info/*
+*\#
+.\#*
+
+*.pyc
+*__pycache__
+
+_graph
+_data
