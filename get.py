@@ -20,7 +20,7 @@ try:
     import vkontakte
 except ImportError:
     print('This script requires vkontakte package to be installed.')
-    print('Download and install it from https://github.com/budnyjj/vkontakte3')
+    print('Download and install it from https://github.com/marinatdd/diplom')
     exit(1)
 
 import graph.io as io
