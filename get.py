@@ -8,6 +8,7 @@ import random
 from multiprocessing import Pool
 import cProfile
 import pstats
+from sys import exit
 
 try:
     import networkx as nx
