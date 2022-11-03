@@ -5,6 +5,6 @@ setup(name='vkontakte',
       description='vk.com API for Python 3',
       url='http://github.com/marinatdd/diplom/vkontakte',
       license='MIT',
-      packages=find_packages(),
+      packages=['vkontakte'],
       zip_safe=False,
 )
